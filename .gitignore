@@ -1,0 +1,40 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 依赖与构建(本项目为纯静态站点,通常无以下目录,但保留以防扩展)
+node_modules/
+dist/
+build/
+.cache/
+.next/
+.nuxt/
+.output/
+
+# 环境变量与密钥(严禁提交)
+.env
+.env.*
+*.local
+secrets.json
+credentials.json
+*.pem
+*.key
+
+# 日志
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 临时文件
+*.tmp
+*.bak
+*.orig
