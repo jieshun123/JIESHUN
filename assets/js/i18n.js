@@ -326,6 +326,12 @@
     'qual.img1.cap':  { zh:'三坐标测量仪 / 二次元影像测量仪', en:'CMM / 2D Image Measuring System' },
     'qual.img2.cap':  { zh:'高度规 · 硬度计 · 盐雾试验机 · RoHS 检测仪', en:'Height Gauge · Hardness Tester · Salt Spray Tester · RoHS Analyzer' },
 
+    // 证书
+    'qual.cert.eyebrow':{ zh:'资质认证', en:'CERTIFICATIONS' },
+    'qual.cert.title':{ zh:'ISO 9001 质量管理体系认证', en:'ISO 9001 Quality Management System Certified' },
+    'qual.cert.desc': { zh:'杰顺精密通过 ISO 9001:2015 质量管理体系认证,以标准化流程与持续改进,保障每一件产品的高品质交付。',
+                         en:'JIESHUN Precision is ISO 9001:2015 certified — standardized processes and continuous improvement ensuring high-quality delivery of every product.' },
+
     // ===== 联系我们 =====
     'cont.eyebrow':   { zh:'联系我们', en:'CONTACT' },
     'cont.h1':        { zh:'期待与您合作', en:'We Look Forward to Partnering With You' },
@@ -346,6 +352,7 @@
     'cont.map.h4':    { zh:'杰顺精密制造基地', en:'JIESHUN Precision Manufacturing Base' },
     'cont.map.p':     { zh:'坐落于苏州甪直,地处长三角先进制造业核心地带,辐射全国及海外市场。',
                          en:'Located in Luzhi, Suzhou — the heart of the Yangtze River Delta\'s advanced manufacturing hub, serving domestic and global markets.' },
+    'cont.wall.cap':  { zh:'苏州杰顺精密五金有限公司', en:'Suzhou Jieshun Precision Machinery Co., Ltd.' },
 
     // ===== page hero breadcrumb =====
     'bc.about':    { zh:'关于我们', en:'About Us' },

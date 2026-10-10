@@ -348,10 +348,22 @@ ul{list-style:none}
 .contact-list .c-ico{flex-shrink:0;width:46px;height:46px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-size:19px;color:#fff}
 .contact-list .c-label{font-size:12.5px;color:rgba(255,255,255,.5);margin-bottom:5px;letter-spacing:1px}
 .contact-list .c-value{font-size:17px;color:#fff;font-weight:500}
-.contact-map{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.13);border-radius:4px;padding:56px 40px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;min-height:340px}
+.contact-map{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.13);border-radius:4px;padding:48px 40px;display:flex;flex-direction:column;justify-content:space-between;align-items:center;text-align:center;min-height:340px}
 .contact-map .pin{width:72px;height:72px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-size:32px;color:#fff;margin-bottom:28px;box-shadow:0 12px 30px rgba(232,145,58,.35)}
 .contact-map h4{font-size:20px;margin-bottom:10px}
 .contact-map p{color:rgba(255,255,255,.6);font-size:14.5px;max-width:300px;line-height:1.8}
+.contact-wall{margin-top:36px;padding-top:28px;border-top:1px solid rgba(255,255,255,.1);width:100%}
+.contact-wall img{width:100%;border-radius:3px;box-shadow:0 10px 28px rgba(0,0,0,.32);display:block}
+.contact-wall .wall-cap{margin-top:14px;font-size:13px;color:rgba(255,255,255,.48);letter-spacing:.6px}
+
+/* ===== 证书条带 ===== */
+.cert-strip{display:flex;align-items:center;gap:44px;max-width:780px;margin:0 auto;background:#fff;border:1px solid var(--line);border-radius:4px;padding:34px 42px;box-shadow:var(--shadow-sm)}
+.cert-thumb{flex-shrink:0;width:118px;height:167px;overflow:hidden;border-radius:3px;box-shadow:0 5px 16px rgba(0,0,0,.1);cursor:pointer;transition:transform .35s}
+.cert-thumb:hover{transform:scale(1.03)}
+.cert-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.cert-text .sec-eyebrow{margin-bottom:12px}
+.cert-text h3{font-size:20px;font-weight:700;margin-bottom:10px}
+.cert-text p{font-size:14px;color:var(--gray);line-height:1.75}
 
 /* ===== Footer ===== */
 .footer{background:#0a0c0f;color:rgba(255,255,255,.45);padding:46px 0;text-align:center}
@@ -377,6 +389,8 @@ ul{list-style:none}
   .equip-card{grid-template-columns:1fr}
   .equip-img img{height:240px}
   .quality-grid{grid-template-columns:repeat(2,1fr)}
+  .cert-strip{flex-direction:column;text-align:center;gap:24px;padding:28px 24px}
+  .cert-thumb{width:100px;height:141px}
   .container{padding:0 24px}
   .section{padding:80px 0}
   .page-hero{padding:150px 0 70px}
