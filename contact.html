@@ -6,35 +6,41 @@
 <title>联系我们 | 杰顺精密 JIESHUN</title>
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="page-enter">
+<body class="page-enter" data-page-title="title.contact">
 
 <header class="header on-dark" id="header">
   <div class="container">
     <nav class="nav">
       <a href="index.html" class="brand">
         <img src="assets/img/logo.png" alt="杰顺精密" class="brand-logo">
-        <span class="brand-text"><span class="brand-cn">杰顺精密</span><br><span class="brand-en">JIESHUN PRECISION</span></span>
+        <span class="brand-text"><span class="brand-cn" data-i18n="brand.cn">杰顺精密</span><br><span class="brand-en">JIESHUN PRECISION</span></span>
       </a>
       <ul class="nav-links" id="navLinks">
-        <li><a href="index.html">首页</a></li>
-        <li><a href="about.html">关于我们</a></li>
-        <li><a href="culture.html">企业文化</a></li>
-        <li><a href="products.html">产品中心</a></li>
-        <li><a href="equipment.html">生产设备</a></li>
-        <li><a href="quality.html">品质管理</a></li>
-        <li><a href="contact.html">联系我们</a></li>
+        <li><a href="index.html" data-i18n="nav.home">首页</a></li>
+        <li><a href="about.html" data-i18n="nav.about">关于我们</a></li>
+        <li><a href="culture.html" data-i18n="nav.culture">企业文化</a></li>
+        <li><a href="products.html" data-i18n="nav.products">产品中心</a></li>
+        <li><a href="equipment.html" data-i18n="nav.equipment">生产设备</a></li>
+        <li><a href="quality.html" data-i18n="nav.quality">品质管理</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">联系我们</a></li>
       </ul>
-      <button class="nav-toggle" id="navToggle" aria-label="菜单">☰</button>
+      <div class="nav-right">
+        <div class="lang-switch">
+          <button class="lang-btn" data-lang="zh">中文</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="菜单">☰</button>
+      </div>
     </nav>
   </div>
 </header>
 
 <section class="page-hero">
   <div class="container">
-    <div class="sec-eyebrow"><span class="en">CONTACT</span> 联系我们</div>
-    <h1>期待与您合作</h1>
-    <p class="ph-sub">如有产品需求或合作意向,欢迎随时与我们联系,杰顺精密为您提供专业的高精密配件方案。</p>
-    <div class="breadcrumb"><a href="index.html">首页</a><span class="sep">/</span><span>联系我们</span></div>
+    <div class="sec-eyebrow" data-i18n="cont.eyebrow">联系我们</div>
+    <h1 data-i18n="cont.h1">期待与您合作</h1>
+    <p class="ph-sub" data-i18n="cont.sub">如有产品需求或合作意向,欢迎随时与我们联系,杰顺精密为您提供专业的高精密配件方案。</p>
+    <div class="breadcrumb"><a href="index.html" data-i18n="common.home">首页</a><span class="sep">/</span><span data-i18n="bc.contact">联系我们</span></div>
   </div>
 </section>
 
@@ -42,28 +48,28 @@
   <div class="container">
     <div class="contact-grid">
       <div class="contact-info reveal">
-        <div class="sec-eyebrow" style="color:var(--orange)"><span class="en" style="color:rgba(255,255,255,.5)">GET IN TOUCH</span> 联系方式</div>
-        <h3>杰顺精密</h3>
-        <p class="c-sub">JIESHUN PRECISION · 高端精密零配件专业制造商</p>
+        <div class="sec-eyebrow" style="color:var(--orange)" data-i18n="cont.touch.eyebrow">联系方式</div>
+        <h3 data-i18n="cont.brand">杰顺精密</h3>
+        <p class="c-sub" data-i18n="cont.brandSub">JIESHUN PRECISION · 高端精密零配件专业制造商</p>
         <ul class="contact-list">
           <li>
             <div class="c-ico">📍</div>
-            <div><div class="c-label">公司地址</div><div class="c-value">江苏省苏州市甪直镇鸿达路25号</div></div>
+            <div><div class="c-label" data-i18n="cont.addr.label">公司地址</div><div class="c-value" data-i18n="cont.addr.val">江苏省苏州市甪直镇鸿达路25号</div></div>
           </li>
           <li>
             <div class="c-ico">☎</div>
-            <div><div class="c-label">电话 / 传真</div><div class="c-value">Tel: 0512-65041820 / Fax: 0512-66021786</div></div>
+            <div><div class="c-label" data-i18n="cont.tel.label">电话 / 传真</div><div class="c-value" data-i18n="cont.tel.val">Tel: 0512-65041820 / Fax: 0512-66021786</div></div>
           </li>
           <li>
             <div class="c-ico">✆</div>
-            <div><div class="c-label">手机</div><div class="c-value">13801543398(朱先生)</div></div>
+            <div><div class="c-label" data-i18n="cont.mobile.label">手机</div><div class="c-value" data-i18n="cont.mobile.val">13801543398(朱先生)</div></div>
           </li>
         </ul>
       </div>
       <div class="contact-map reveal d1">
         <div class="pin">🏭</div>
-        <h4>杰顺精密制造基地</h4>
-        <p>坐落于苏州甪直,地处长三角先进制造业核心地带,辐射全国及海外市场。</p>
+        <h4 data-i18n="cont.map.h4">杰顺精密制造基地</h4>
+        <p data-i18n="cont.map.p">坐落于苏州甪直,地处长三角先进制造业核心地带,辐射全国及海外市场。</p>
       </div>
     </div>
   </div>
@@ -71,10 +77,11 @@
 
 <footer class="footer">
   <div class="container">
-    <p>© 2007-2026 杰顺精密 JIESHUN PRECISION · 江苏省苏州市甪直镇鸿达路25号 · 专注于高端精密配件生产</p>
+    <p data-i18n="footer.copyright">© 2007-2026 杰顺精密 JIESHUN PRECISION · 江苏省苏州市甪直镇鸿达路25号 · 专注于高端精密配件生产</p>
   </div>
 </footer>
 
 <script src="assets/js/main.js"></script>
+<script src="assets/js/i18n.js"></script>
 </body>
 </html>

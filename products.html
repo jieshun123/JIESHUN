@@ -6,125 +6,117 @@
 <title>产品中心 | 杰顺精密 JIESHUN</title>
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="page-enter">
+<body class="page-enter" data-page-title="title.products">
 
 <header class="header on-dark" id="header">
   <div class="container">
     <nav class="nav">
       <a href="index.html" class="brand">
         <img src="assets/img/logo.png" alt="杰顺精密" class="brand-logo">
-        <span class="brand-text"><span class="brand-cn">杰顺精密</span><br><span class="brand-en">JIESHUN PRECISION</span></span>
+        <span class="brand-text"><span class="brand-cn" data-i18n="brand.cn">杰顺精密</span><br><span class="brand-en">JIESHUN PRECISION</span></span>
       </a>
       <ul class="nav-links" id="navLinks">
-        <li><a href="index.html">首页</a></li>
-        <li><a href="about.html">关于我们</a></li>
-        <li><a href="culture.html">企业文化</a></li>
-        <li><a href="products.html">产品中心</a></li>
-        <li><a href="equipment.html">生产设备</a></li>
-        <li><a href="quality.html">品质管理</a></li>
-        <li><a href="contact.html">联系我们</a></li>
+        <li><a href="index.html" data-i18n="nav.home">首页</a></li>
+        <li><a href="about.html" data-i18n="nav.about">关于我们</a></li>
+        <li><a href="culture.html" data-i18n="nav.culture">企业文化</a></li>
+        <li><a href="products.html" data-i18n="nav.products">产品中心</a></li>
+        <li><a href="equipment.html" data-i18n="nav.equipment">生产设备</a></li>
+        <li><a href="quality.html" data-i18n="nav.quality">品质管理</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">联系我们</a></li>
       </ul>
-      <button class="nav-toggle" id="navToggle" aria-label="菜单">☰</button>
+      <div class="nav-right">
+        <div class="lang-switch">
+          <button class="lang-btn" data-lang="zh">中文</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="菜单">☰</button>
+      </div>
     </nav>
   </div>
 </header>
 
 <section class="page-hero">
   <div class="container">
-    <div class="sec-eyebrow"><span class="en">PRODUCTS</span> 产品中心</div>
-    <h1>多元化的精密产品体系</h1>
-    <p class="ph-sub">涵盖连接器、汽车零部件、半导体、活塞、清洗机配件、紧固件及轴类等精密零配件,满足多行业配套需求。</p>
-    <div class="breadcrumb"><a href="index.html">首页</a><span class="sep">/</span><span>产品中心</span></div>
+    <div class="sec-eyebrow" data-i18n="prod.eyebrow">产品中心</div>
+    <h1 data-i18n="prod.h1">多元化的精密产品体系</h1>
+    <p class="ph-sub" data-i18n="prod.sub">涵盖连接器、汽车零部件、半导体、活塞、清洗机配件、紧固件及轴类等精密零配件,满足多行业配套需求。</p>
+    <div class="breadcrumb"><a href="index.html" data-i18n="common.home">首页</a><span class="sep">/</span><span data-i18n="bc.products">产品中心</span></div>
   </div>
 </section>
 
 <section class="section">
   <div class="container">
     <div class="sec-head center reveal">
-      <div class="sec-eyebrow"><span class="en">CATEGORIES</span> 产品分类</div>
-      <h2 class="sec-title">七大产品线,精准配套</h2>
-      <p class="sec-desc">点击下方分类筛选,查看不同领域的精密零配件产品。</p>
+      <div class="sec-eyebrow" data-i18n="prod.cat.eyebrow">产品分类</div>
+      <h2 class="sec-title" data-i18n="prod.cat.title">七大产品线,精准配套</h2>
+      <p class="sec-desc" data-i18n="prod.cat.desc">点击下方分类筛选,查看不同领域的精密零配件产品。</p>
     </div>
     <div class="product-tabs reveal">
-      <span class="ptab active" data-cat="all">全部</span>
-      <span class="ptab" data-cat="connector">插接件</span>
-      <span class="ptab" data-cat="auto">汽车零部件</span>
-      <span class="ptab" data-cat="semi">半导体部件</span>
-      <span class="ptab" data-cat="piston">活塞零部件</span>
-      <span class="ptab" data-cat="cleaner">清洗机配件</span>
-      <span class="ptab" data-cat="nuts">嵌装螺母/紧固件</span>
-      <span class="ptab" data-cat="shafts">轴类和其他</span>
+      <span class="ptab active" data-cat="all" data-i18n="prod.tab.all">全部</span>
+      <span class="ptab" data-cat="connector" data-i18n="prod.tab.connector">插接件</span>
+      <span class="ptab" data-cat="auto" data-i18n="prod.tab.auto">汽车零部件</span>
+      <span class="ptab" data-cat="semi" data-i18n="prod.tab.semi">半导体部件</span>
+      <span class="ptab" data-cat="piston" data-i18n="prod.tab.piston">活塞零部件</span>
+      <span class="ptab" data-cat="cleaner" data-i18n="prod.tab.cleaner">清洗机配件</span>
+      <span class="ptab" data-cat="nuts" data-i18n="prod.tab.nuts">嵌装螺母/紧固件</span>
+      <span class="ptab" data-cat="shafts" data-i18n="prod.tab.shafts">轴类和其他</span>
     </div>
     <div class="products-gallery">
       <div class="pcard reveal d1" data-cat="connector">
-        <img src="assets/img/product-connector.png" alt="插接件">
-        <div class="p-mask">
-          <div>
-            <div class="p-en">Connectors</div>
-            <h3>插接件</h3>
-            <p class="p-desc">精密针孔接触件、接线端子、螺纹锁紧组件,适用于新能源、轨道交通、工业自动化等领域。</p>
-          </div>
-        </div>
+        <img src="assets/img/product-connector.png" alt="Connectors">
+        <div class="p-mask"><div>
+          <div class="p-en" data-i18n="prod.connector.en">Connectors</div>
+          <h3 data-i18n="prod.connector.h3">插接件</h3>
+          <p class="p-desc" data-i18n="prod.connector.desc">精密针孔接触件、接线端子、螺纹锁紧组件,适用于新能源、轨道交通、工业自动化等领域。</p>
+        </div></div>
       </div>
       <div class="pcard reveal d2" data-cat="auto">
-        <img src="assets/img/product-auto.png" alt="汽车零部件">
-        <div class="p-mask">
-          <div>
-            <div class="p-en">Automotive Parts</div>
-            <h3>汽车零部件</h3>
-            <p class="p-desc">阀体、轴类、花键等精密零件,覆盖燃油喷射、传动、悬挂等系统,达到汽车行业批量供货标准。</p>
-          </div>
-        </div>
+        <img src="assets/img/product-auto.png" alt="Automotive Parts">
+        <div class="p-mask"><div>
+          <div class="p-en" data-i18n="prod.auto.en">Automotive Parts</div>
+          <h3 data-i18n="prod.auto.h3">汽车零部件</h3>
+          <p class="p-desc" data-i18n="prod.auto.desc">阀体、轴类、花键等精密零件,覆盖燃油喷射、传动、悬挂等系统,达到汽车行业批量供货标准。</p>
+        </div></div>
       </div>
       <div class="pcard reveal d3" data-cat="semi">
-        <img src="assets/img/product-semiconductor.png" alt="半导体部件">
-        <div class="p-mask">
-          <div>
-            <div class="p-en">Semiconductor</div>
-            <h3>半导体部件</h3>
-            <p class="p-desc">气路接头、阀体、腔体馈通件等,采用316L等不锈钢精密加工,适配高纯度与真空应用。</p>
-          </div>
-        </div>
+        <img src="assets/img/product-semiconductor.png" alt="Semiconductor">
+        <div class="p-mask"><div>
+          <div class="p-en" data-i18n="prod.semi.en">Semiconductor</div>
+          <h3 data-i18n="prod.semi.h3">半导体部件</h3>
+          <p class="p-desc" data-i18n="prod.semi.desc">气路接头、阀体、腔体馈通件等,采用316L等不锈钢精密加工,适配高纯度与真空应用。</p>
+        </div></div>
       </div>
       <div class="pcard reveal d1" data-cat="piston">
-        <img src="assets/img/product-piston.png" alt="活塞零部件">
-        <div class="p-mask">
-          <div>
-            <div class="p-en">Piston Parts</div>
-            <h3>活塞零部件</h3>
-            <p class="p-desc">缸盖、导向套、锁紧螺母、缸筒等液压气动活塞组件,兼顾腐蚀防护与耐磨性能。</p>
-          </div>
-        </div>
+        <img src="assets/img/product-piston.png" alt="Piston Parts">
+        <div class="p-mask"><div>
+          <div class="p-en" data-i18n="prod.piston.en">Piston Parts</div>
+          <h3 data-i18n="prod.piston.h3">活塞零部件</h3>
+          <p class="p-desc" data-i18n="prod.piston.desc">缸盖、导向套、锁紧螺母、缸筒等液压气动活塞组件,兼顾腐蚀防护与耐磨性能。</p>
+        </div></div>
       </div>
       <div class="pcard reveal d2" data-cat="cleaner">
-        <img src="assets/img/product-cleaner.jpeg" alt="清洗机配件">
-        <div class="p-mask">
-          <div>
-            <div class="p-en">Cleaner Parts</div>
-            <h3>清洗机配件</h3>
-            <p class="p-desc">高压清洗机精密配件,经精密加工与防锈处理,满足高压水路系统配套需求。</p>
-          </div>
-        </div>
+        <img src="assets/img/product-cleaner.jpeg" alt="Cleaner Parts">
+        <div class="p-mask"><div>
+          <div class="p-en" data-i18n="prod.cleaner.en">Cleaner Parts</div>
+          <h3 data-i18n="prod.cleaner.h3">清洗机配件</h3>
+          <p class="p-desc" data-i18n="prod.cleaner.desc">高压清洗机精密配件,经精密加工与防锈处理,满足高压水路系统配套需求。</p>
+        </div></div>
       </div>
       <div class="pcard reveal d3" data-cat="nuts">
-        <img src="assets/img/product-nuts.png" alt="嵌装螺母/紧固件">
-        <div class="p-mask">
-          <div>
-            <div class="p-en">Fasteners</div>
-            <h3>嵌装螺母 / 紧固件</h3>
-            <p class="p-desc">嵌装螺母、滚花紧固件等,广泛用于3C电子、灯饰及结构件连接,装配可靠。</p>
-          </div>
-        </div>
+        <img src="assets/img/product-nuts.png" alt="Fasteners">
+        <div class="p-mask"><div>
+          <div class="p-en" data-i18n="prod.nuts.en">Fasteners</div>
+          <h3 data-i18n="prod.nuts.h3">嵌装螺母 / 紧固件</h3>
+          <p class="p-desc" data-i18n="prod.nuts.desc">嵌装螺母、滚花紧固件等,广泛用于3C电子、灯饰及结构件连接,装配可靠。</p>
+        </div></div>
       </div>
       <div class="pcard reveal d1" data-cat="shafts">
-        <img src="assets/img/product-shafts.png" alt="轴类和其他">
-        <div class="p-mask">
-          <div>
-            <div class="p-en">Shafts & Others</div>
-            <h3>轴类和其他</h3>
-            <p class="p-desc">各类精密轴类、异形件及定制零配件,支持多材料、多工艺的柔性化加工。</p>
-          </div>
-        </div>
+        <img src="assets/img/product-shafts.png" alt="Shafts & Others">
+        <div class="p-mask"><div>
+          <div class="p-en" data-i18n="prod.shafts.en">Shafts & Others</div>
+          <h3 data-i18n="prod.shafts.h3">轴类和其他</h3>
+          <p class="p-desc" data-i18n="prod.shafts.desc">各类精密轴类、异形件及定制零配件,支持多材料、多工艺的柔性化加工。</p>
+        </div></div>
       </div>
     </div>
   </div>
@@ -135,17 +127,17 @@
   <div class="container">
     <div class="product-feature">
       <div class="pf-img reveal">
-        <img src="assets/img/product-semiconductor.png" alt="精密制造能力">
+        <img src="assets/img/product-semiconductor.png" alt="Precision Capability">
       </div>
       <div class="pf-text reveal d1">
-        <div class="sec-eyebrow"><span class="en">CAPABILITY</span> 精密能力</div>
-        <h3>高精度、多材料、柔性化</h3>
-        <p>杰顺精密具备从走心、车铣复合到自动组装的完整加工能力,可处理铜、铝、不锈钢、塑料等多种材料,支持小批量多品种的柔性化生产。</p>
+        <div class="sec-eyebrow" data-i18n="prod.feat.eyebrow">精密能力</div>
+        <h3 data-i18n="prod.feat.h3">高精度、多材料、柔性化</h3>
+        <p data-i18n="prod.feat.p">杰顺精密具备从走心、车铣复合到自动组装的完整加工能力,可处理铜、铝、不锈钢、塑料等多种材料,支持小批量多品种的柔性化生产。</p>
         <ul class="pf-list">
-          <li>最高加工精度可达 0.002mm</li>
-          <li>覆盖7大产品线,服务6+行业领域</li>
-          <li>支持来图来样定制与开发</li>
-          <li>完善的防锈、电镀、热处理配套工艺</li>
+          <li data-i18n="prod.feat.l1">最高加工精度可达 0.002mm</li>
+          <li data-i18n="prod.feat.l2">覆盖7大产品线,服务6+行业领域</li>
+          <li data-i18n="prod.feat.l3">支持来图来样定制与开发</li>
+          <li data-i18n="prod.feat.l4">完善的防锈、电镀、热处理配套工艺</li>
         </ul>
       </div>
     </div>
@@ -155,19 +147,20 @@
 <section class="cta-banner">
   <div class="container">
     <div class="reveal">
-      <h2>有定制需求?欢迎咨询</h2>
-      <p>无论批量还是样品,杰顺精密都能为您提供专业的精密配件方案。</p>
-      <a href="contact.html" class="btn btn-primary">联系我们 <span class="arrow">→</span></a>
+      <h2 data-i18n="cta.products.title">有定制需求?欢迎咨询</h2>
+      <p data-i18n="cta.products.desc">无论批量还是样品,杰顺精密都能为您提供专业的精密配件方案。</p>
+      <a href="contact.html" class="btn btn-primary"><span data-i18n="common.contactUs">联系我们</span> <span class="arrow">→</span></a>
     </div>
   </div>
 </section>
 
 <footer class="footer">
   <div class="container">
-    <p>© 2007-2026 杰顺精密 JIESHUN PRECISION · 江苏省苏州市甪直镇鸿达路25号 · 专注于高端精密配件生产</p>
+    <p data-i18n="footer.copyright">© 2007-2026 杰顺精密 JIESHUN PRECISION · 江苏省苏州市甪直镇鸿达路25号 · 专注于高端精密配件生产</p>
   </div>
 </footer>
 
 <script src="assets/js/main.js"></script>
+<script src="assets/js/i18n.js"></script>
 </body>
 </html>

@@ -7,7 +7,7 @@
 <meta name="description" content="杰顺精密成立于2007年,致力于高端精密零配件的专业化制造,提供高压清洗机、农机、3C电子、灯饰、汽车、航空航天及船舶用精密零配件。">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body data-page-title="title.home" data-page-meta="meta.home">
 
 <!-- Header -->
 <header class="header on-dark" id="header">
@@ -16,20 +16,26 @@
       <a href="index.html" class="brand">
         <img src="assets/img/logo.png" alt="杰顺精密" class="brand-logo">
         <span class="brand-text">
-          <span class="brand-cn">杰顺精密</span><br>
+          <span class="brand-cn" data-i18n="brand.cn">杰顺精密</span><br>
           <span class="brand-en">JIESHUN PRECISION</span>
         </span>
       </a>
       <ul class="nav-links" id="navLinks">
-        <li><a href="index.html">首页</a></li>
-        <li><a href="about.html">关于我们</a></li>
-        <li><a href="culture.html">企业文化</a></li>
-        <li><a href="products.html">产品中心</a></li>
-        <li><a href="equipment.html">生产设备</a></li>
-        <li><a href="quality.html">品质管理</a></li>
-        <li><a href="contact.html">联系我们</a></li>
+        <li><a href="index.html" data-i18n="nav.home">首页</a></li>
+        <li><a href="about.html" data-i18n="nav.about">关于我们</a></li>
+        <li><a href="culture.html" data-i18n="nav.culture">企业文化</a></li>
+        <li><a href="products.html" data-i18n="nav.products">产品中心</a></li>
+        <li><a href="equipment.html" data-i18n="nav.equipment">生产设备</a></li>
+        <li><a href="quality.html" data-i18n="nav.quality">品质管理</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">联系我们</a></li>
       </ul>
-      <button class="nav-toggle" id="navToggle" aria-label="菜单">☰</button>
+      <div class="nav-right">
+        <div class="lang-switch">
+          <button class="lang-btn" data-lang="zh">中文</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="菜单">☰</button>
+      </div>
     </nav>
   </div>
 </header>
@@ -39,22 +45,22 @@
   <div class="hero-bg"></div>
   <div class="container">
     <div class="hero-content">
-      <div class="hero-tag hero-fade f1">Since 2007 · Precision Manufacturing</div>
+      <div class="hero-tag hero-fade f1" data-i18n="home.hero.tag">Since 2007 · Precision Manufacturing</div>
       <h1>
-        <span class="hero-line"><span>专注于<span class="accent">高端精密配件</span></span></span>
-        <span class="hero-line"><span>专业化制造</span></span>
+        <span class="hero-line"><span data-i18n="home.hero.h1a">专注于</span><span class="accent" data-i18n="home.hero.h1b">高端精密配件</span></span>
+        <span class="hero-line"><span data-i18n="home.hero.h1c">专业化制造</span></span>
       </h1>
-      <p class="hero-sub hero-fade f2">杰顺精密,动力无限 —— 集精密加工、焊接与技术开发于一体,为多领域提供高品质精密零配件。</p>
-      <div class="hero-slogan hero-fade f3">有质量有情怀,让你爱上<span>中国造</span></div>
+      <p class="hero-sub hero-fade f2" data-i18n="home.hero.sub">杰顺精密,动力无限 —— 集精密加工、焊接与技术开发于一体,为多领域提供高品质精密零配件。</p>
+      <div class="hero-slogan hero-fade f3"><span data-i18n="home.hero.slogan">有质量有情怀,让你爱上</span><span data-i18n="home.hero.slogan2">中国造</span></div>
       <div class="hero-actions hero-fade f4">
-        <a href="products.html" class="btn btn-primary">查看产品 <span class="arrow">→</span></a>
-        <a href="about.html" class="btn btn-ghost">了解公司</a>
+        <a href="products.html" class="btn btn-primary"><span data-i18n="common.viewProducts">查看产品</span> <span class="arrow">→</span></a>
+        <a href="about.html" class="btn btn-ghost" data-i18n="home.hero.btnGhost">了解公司</a>
       </div>
     </div>
   </div>
   <div class="scroll-hint">
     <div class="mouse"></div>
-    <span>SCROLL</span>
+    <span data-i18n="common.scroll">SCROLL</span>
   </div>
 </section>
 
@@ -62,26 +68,26 @@
 <section class="section">
   <div class="container">
     <div class="sec-head center reveal">
-      <div class="sec-eyebrow"><span class="en">CORE STRENGTHS</span> 核心实力</div>
-      <h2 class="sec-title">十七年深耕,精密制造</h2>
-      <p class="sec-desc">从2007年成立至今,杰顺精密以专业能力与匠心品质,持续为高端制造业提供可靠配套。</p>
+      <div class="sec-eyebrow" data-i18n="home.hl.eyebrow">核心实力</div>
+      <h2 class="sec-title" data-i18n="home.hl.title">十七年深耕,精密制造</h2>
+      <p class="sec-desc" data-i18n="home.hl.desc">从2007年成立至今,杰顺精密以专业能力与匠心品质,持续为高端制造业提供可靠配套。</p>
     </div>
     <div class="highlights reveal d1">
       <div class="hl-card">
         <div class="hl-num"><span data-count="17">0</span><span class="unit">+</span></div>
-        <div class="hl-label">年精密制造经验</div>
+        <div class="hl-label" data-i18n="home.hl.years">年精密制造经验</div>
       </div>
       <div class="hl-card">
         <div class="hl-num"><span data-count="7">0</span></div>
-        <div class="hl-label">大产品线</div>
+        <div class="hl-label" data-i18n="home.hl.lines">大产品线</div>
       </div>
       <div class="hl-card">
         <div class="hl-num"><span data-count="0.002">0</span><span class="unit">mm</span></div>
-        <div class="hl-label">最高加工精度</div>
+        <div class="hl-label" data-i18n="home.hl.acc">最高加工精度</div>
       </div>
       <div class="hl-card">
         <div class="hl-num"><span data-count="6">0</span><span class="unit">+</span></div>
-        <div class="hl-label">行业应用领域</div>
+        <div class="hl-label" data-i18n="home.hl.ind">行业应用领域</div>
       </div>
     </div>
   </div>
@@ -91,40 +97,40 @@
 <section class="section section-soft">
   <div class="container">
     <div class="sec-head center reveal">
-      <div class="sec-eyebrow"><span class="en">EXPLORE</span> 业务模块</div>
-      <h2 class="sec-title">全面了解杰顺精密</h2>
-      <p class="sec-desc">点击进入各模块,深入了解我们的产品、设备与品质体系。</p>
+      <div class="sec-eyebrow" data-i18n="home.mod.eyebrow">业务模块</div>
+      <h2 class="sec-title" data-i18n="home.mod.title">全面了解杰顺精密</h2>
+      <p class="sec-desc" data-i18n="home.mod.desc">点击进入各模块,深入了解我们的产品、设备与品质体系。</p>
     </div>
     <div class="modules">
       <a href="about.html" class="module-card reveal d1">
-        <img src="assets/img/building.jpeg" alt="关于我们">
+        <img src="assets/img/building.jpeg" alt="About Us">
         <div class="module-arrow">→</div>
-        <div class="module-info"><div class="m-en">About Us</div><h3>关于我们</h3></div>
+        <div class="module-info"><div class="m-en">About Us</div><h3 data-i18n="home.mod.about">关于我们</h3></div>
       </a>
       <a href="products.html" class="module-card reveal d2">
-        <img src="assets/img/product-connector.png" alt="产品中心">
+        <img src="assets/img/product-connector.png" alt="Products">
         <div class="module-arrow">→</div>
-        <div class="module-info"><div class="m-en">Products</div><h3>产品中心</h3></div>
+        <div class="module-info"><div class="m-en">Products</div><h3 data-i18n="home.mod.products">产品中心</h3></div>
       </a>
       <a href="equipment.html" class="module-card reveal d3">
-        <img src="assets/img/equipment-star.jpeg" alt="生产设备">
+        <img src="assets/img/equipment-star.jpeg" alt="Equipment">
         <div class="module-arrow">→</div>
-        <div class="module-info"><div class="m-en">Equipment</div><h3>生产设备</h3></div>
+        <div class="module-info"><div class="m-en">Equipment</div><h3 data-i18n="home.mod.equip">生产设备</h3></div>
       </a>
       <a href="quality.html" class="module-card reveal d1">
-        <img src="assets/img/quality-1.png" alt="品质管理">
+        <img src="assets/img/quality-1.png" alt="Quality">
         <div class="module-arrow">→</div>
-        <div class="module-info"><div class="m-en">Quality</div><h3>品质管理</h3></div>
+        <div class="module-info"><div class="m-en">Quality</div><h3 data-i18n="home.mod.quality">品质管理</h3></div>
       </a>
       <a href="culture.html" class="module-card reveal d2">
-        <img src="assets/img/equipment-cam.png" alt="企业文化">
+        <img src="assets/img/equipment-cam.png" alt="Culture">
         <div class="module-arrow">→</div>
-        <div class="module-info"><div class="m-en">Culture</div><h3>企业文化</h3></div>
+        <div class="module-info"><div class="m-en">Culture</div><h3 data-i18n="home.mod.culture">企业文化</h3></div>
       </a>
       <a href="contact.html" class="module-card reveal d3">
-        <img src="assets/img/product-auto.png" alt="联系我们">
+        <img src="assets/img/product-auto.png" alt="Contact">
         <div class="module-arrow">→</div>
-        <div class="module-info"><div class="m-en">Contact</div><h3>联系我们</h3></div>
+        <div class="module-info"><div class="m-en">Contact</div><h3 data-i18n="home.mod.contact">联系我们</h3></div>
       </a>
     </div>
   </div>
@@ -134,9 +140,9 @@
 <section class="cta-banner">
   <div class="container">
     <div class="reveal">
-      <h2>期待与您携手,共铸精密品质</h2>
-      <p>如有产品需求或合作意向,欢迎随时联系杰顺精密,我们将为您提供专业的高精密配件解决方案。</p>
-      <a href="contact.html" class="btn btn-primary">联系我们 <span class="arrow">→</span></a>
+      <h2 data-i18n="cta.home.title">期待与您携手,共铸精密品质</h2>
+      <p data-i18n="cta.home.desc">如有产品需求或合作意向,欢迎随时联系杰顺精密,我们将为您提供专业的高精密配件解决方案。</p>
+      <a href="contact.html" class="btn btn-primary"><span data-i18n="common.contactUs">联系我们</span> <span class="arrow">→</span></a>
     </div>
   </div>
 </section>
@@ -144,10 +150,11 @@
 <!-- Footer -->
 <footer class="footer">
   <div class="container">
-    <p>© 2007-2026 杰顺精密 JIESHUN PRECISION · 江苏省苏州市甪直镇鸿达路25号 · 专注于高端精密配件生产</p>
+    <p data-i18n="footer.copyright">© 2007-2026 杰顺精密 JIESHUN PRECISION · 江苏省苏州市甪直镇鸿达路25号 · 专注于高端精密配件生产</p>
   </div>
 </footer>
 
 <script src="assets/js/main.js"></script>
+<script src="assets/js/i18n.js"></script>
 </body>
 </html>

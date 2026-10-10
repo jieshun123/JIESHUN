@@ -6,54 +6,91 @@
 <title>品质管理 | 杰顺精密 JIESHUN</title>
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="page-enter">
+<body class="page-enter" data-page-title="title.quality">
 
 <header class="header on-dark" id="header">
   <div class="container">
     <nav class="nav">
       <a href="index.html" class="brand">
         <img src="assets/img/logo.png" alt="杰顺精密" class="brand-logo">
-        <span class="brand-text"><span class="brand-cn">杰顺精密</span><br><span class="brand-en">JIESHUN PRECISION</span></span>
+        <span class="brand-text"><span class="brand-cn" data-i18n="brand.cn">杰顺精密</span><br><span class="brand-en">JIESHUN PRECISION</span></span>
       </a>
       <ul class="nav-links" id="navLinks">
-        <li><a href="index.html">首页</a></li>
-        <li><a href="about.html">关于我们</a></li>
-        <li><a href="culture.html">企业文化</a></li>
-        <li><a href="products.html">产品中心</a></li>
-        <li><a href="equipment.html">生产设备</a></li>
-        <li><a href="quality.html">品质管理</a></li>
-        <li><a href="contact.html">联系我们</a></li>
+        <li><a href="index.html" data-i18n="nav.home">首页</a></li>
+        <li><a href="about.html" data-i18n="nav.about">关于我们</a></li>
+        <li><a href="culture.html" data-i18n="nav.culture">企业文化</a></li>
+        <li><a href="products.html" data-i18n="nav.products">产品中心</a></li>
+        <li><a href="equipment.html" data-i18n="nav.equipment">生产设备</a></li>
+        <li><a href="quality.html" data-i18n="nav.quality">品质管理</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">联系我们</a></li>
       </ul>
-      <button class="nav-toggle" id="navToggle" aria-label="菜单">☰</button>
+      <div class="nav-right">
+        <div class="lang-switch">
+          <button class="lang-btn" data-lang="zh">中文</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="菜单">☰</button>
+      </div>
     </nav>
   </div>
 </header>
 
 <section class="page-hero">
   <div class="container">
-    <div class="sec-eyebrow"><span class="en">QUALITY ASSURANCE</span> 品质管理</div>
-    <h1>全流程品质保证体系</h1>
-    <p class="ph-sub">从机加工、热处理到电镀、组装、出货,层层检验把控,确保每一件产品都符合高标准。</p>
-    <div class="breadcrumb"><a href="index.html">首页</a><span class="sep">/</span><span>品质管理</span></div>
+    <div class="sec-eyebrow" data-i18n="qual.eyebrow">品质管理</div>
+    <h1 data-i18n="qual.h1">全流程品质保证体系</h1>
+    <p class="ph-sub" data-i18n="qual.sub">从机加工、热处理到电镀、组装、出货,层层检验把控,确保每一件产品都符合高标准。</p>
+    <div class="breadcrumb"><a href="index.html" data-i18n="common.home">首页</a><span class="sep">/</span><span data-i18n="bc.quality">品质管理</span></div>
   </div>
 </section>
 
 <section class="section">
   <div class="container">
     <div class="sec-head center reveal">
-      <div class="sec-eyebrow"><span class="en">PROCESS FLOW</span> 工艺流程</div>
-      <h2 class="sec-title">完整生产控制流程</h2>
-      <p class="sec-desc">产品不同,工艺并不相同,以下表述我们具备的工艺过程。</p>
+      <div class="sec-eyebrow" data-i18n="qual.flow.eyebrow">工艺流程</div>
+      <h2 class="sec-title" data-i18n="qual.flow.title">完整生产控制流程</h2>
+      <p class="sec-desc" data-i18n="qual.flow.desc">产品不同,工艺并不相同,以下表述我们具备的工艺过程。</p>
     </div>
-    <div class="quality-flow reveal">
-      <span class="flow-step">机加工</span><span class="flow-arrow">→</span>
-      <span class="flow-step">热处理</span><span class="flow-arrow">→</span>
-      <span class="flow-step">外圆磨</span><span class="flow-arrow">→</span>
-      <span class="flow-step">二次加工</span><span class="flow-arrow">→</span>
-      <span class="flow-step">防锈</span><span class="flow-arrow">→</span>
-      <span class="flow-step">电镀</span><span class="flow-arrow">→</span>
-      <span class="flow-step">组装</span><span class="flow-arrow">→</span>
-      <span class="flow-step">出货</span>
+    <div class="flow-wrap reveal">
+      <div class="flow-node">
+        <div class="flow-circle"><span class="flow-ico">⚙</span><div class="flow-num">01</div></div>
+        <div class="flow-label" data-i18n="flow.机加工">机加工</div>
+      </div>
+      <div class="flow-conn"><div class="flow-line"><div class="flow-glow"></div></div></div>
+      <div class="flow-node">
+        <div class="flow-circle"><span class="flow-ico">🔥</span><div class="flow-num">02</div></div>
+        <div class="flow-label" data-i18n="flow.热处理">热处理</div>
+      </div>
+      <div class="flow-conn"><div class="flow-line"><div class="flow-glow"></div></div></div>
+      <div class="flow-node">
+        <div class="flow-circle"><span class="flow-ico">◎</span><div class="flow-num">03</div></div>
+        <div class="flow-label" data-i18n="flow.外圆磨">外圆磨</div>
+      </div>
+      <div class="flow-conn"><div class="flow-line"><div class="flow-glow"></div></div></div>
+      <div class="flow-node">
+        <div class="flow-circle"><span class="flow-ico">⚒</span><div class="flow-num">04</div></div>
+        <div class="flow-label" data-i18n="flow.二次加工">二次加工</div>
+      </div>
+      <div class="flow-conn"><div class="flow-line"><div class="flow-glow"></div></div></div>
+      <div class="flow-node">
+        <div class="flow-circle"><span class="flow-ico">🛡</span><div class="flow-num">05</div></div>
+        <div class="flow-label" data-i18n="flow.防锈">防锈</div>
+      </div>
+      <div class="flow-conn"><div class="flow-line"><div class="flow-glow"></div></div></div>
+      <div class="flow-node">
+        <div class="flow-circle"><span class="flow-ico">✨</span><div class="flow-num">06</div></div>
+        <div class="flow-label" data-i18n="flow.电镀">电镀</div>
+      </div>
+      <div class="flow-conn"><div class="flow-line"><div class="flow-glow"></div></div></div>
+      <div class="flow-node">
+        <div class="flow-circle"><span class="flow-ico">🧩</span><div class="flow-num">07</div></div>
+        <div class="flow-label" data-i18n="flow.组装">组装</div>
+      </div>
+      <div class="flow-conn"><div class="flow-line"><div class="flow-glow"></div></div></div>
+      <div class="flow-node">
+        <div class="flow-circle"><span class="flow-ico">📦</span><div class="flow-num">08</div></div>
+        <div class="flow-label" data-i18n="flow.出货">出货</div>
+      </div>
     </div>
   </div>
 </section>
@@ -61,15 +98,15 @@
 <section class="section section-soft">
   <div class="container">
     <div class="sec-head center reveal">
-      <div class="sec-eyebrow"><span class="en">INSPECTION</span> 检验方式</div>
-      <h2 class="sec-title">多层级检验把控</h2>
-      <p class="sec-desc">员工自检、过程巡检、全检与抽检相结合,品质层层把关。</p>
+      <div class="sec-eyebrow" data-i18n="qual.insp.eyebrow">检验方式</div>
+      <h2 class="sec-title" data-i18n="qual.insp.title">多层级检验把控</h2>
+      <p class="sec-desc" data-i18n="qual.insp.desc">员工自检、过程巡检、全检与抽检相结合,品质层层把关。</p>
     </div>
     <div class="quality-grid">
-      <div class="quality-card reveal d1"><div class="q-icon">01</div><h4>员工自检</h4><p>工序自检与过程检验,品质从源头做起</p></div>
-      <div class="quality-card reveal d2"><div class="q-icon">02</div><h4>质量巡检</h4><p>生产全过程 IPQC 巡检,及时纠偏</p></div>
-      <div class="quality-card reveal d3"><div class="q-icon">03</div><h4>全检 / 抽检</h4><p>按 GB2828.1 标准执行,科学判定</p></div>
-      <div class="quality-card reveal d1"><div class="q-icon">04</div><h4>OQC 出货</h4><p>出货检验与客户服务,全程可追溯</p></div>
+      <div class="quality-card reveal d1"><div class="q-icon">01</div><h4 data-i18n="qual.insp.self.title">员工自检</h4><p data-i18n="qual.insp.self.desc">工序自检与过程检验,品质从源头做起</p></div>
+      <div class="quality-card reveal d2"><div class="q-icon">02</div><h4 data-i18n="qual.insp.patrol.title">质量巡检</h4><p data-i18n="qual.insp.patrol.desc">生产全过程 IPQC 巡检,及时纠偏</p></div>
+      <div class="quality-card reveal d3"><div class="q-icon">03</div><h4 data-i18n="qual.insp.full.title">全检 / 抽检</h4><p data-i18n="qual.insp.full.desc">按 GB2828.1 标准执行,科学判定</p></div>
+      <div class="quality-card reveal d1"><div class="q-icon">04</div><h4 data-i18n="qual.insp.oqc.title">OQC 出货</h4><p data-i18n="qual.insp.oqc.desc">出货检验与客户服务,全程可追溯</p></div>
     </div>
   </div>
 </section>
@@ -77,18 +114,18 @@
 <section class="section">
   <div class="container">
     <div class="sec-head center reveal">
-      <div class="sec-eyebrow"><span class="en">TESTING EQUIPMENT</span> 检测设备</div>
-      <h2 class="sec-title">QA 检测设备</h2>
-      <p class="sec-desc">配备专业检测仪器,从尺寸、硬度到环保指标全面覆盖。</p>
+      <div class="sec-eyebrow" data-i18n="qual.eq.eyebrow">检测设备</div>
+      <h2 class="sec-title" data-i18n="qual.eq.title">QA 检测设备</h2>
+      <p class="sec-desc" data-i18n="qual.eq.desc">配备专业检测仪器,从尺寸、硬度到环保指标全面覆盖。</p>
     </div>
     <div class="quality-imgs">
       <div class="qbox reveal">
         <img src="assets/img/quality-1.png" alt="三坐标测量仪">
-        <div class="qcap">三坐标测量仪 / 二次元影像测量仪</div>
+        <div class="qcap" data-i18n="qual.img1.cap">三坐标测量仪 / 二次元影像测量仪</div>
       </div>
       <div class="qbox reveal d1">
         <img src="assets/img/quality-2.jpeg" alt="检测设备">
-        <div class="qcap">高度规 · 硬度计 · 盐雾试验机 · RoHS 检测仪</div>
+        <div class="qcap" data-i18n="qual.img2.cap">高度规 · 硬度计 · 盐雾试验机 · RoHS 检测仪</div>
       </div>
     </div>
   </div>
@@ -97,19 +134,20 @@
 <section class="cta-banner">
   <div class="container">
     <div class="reveal">
-      <h2>品质,是杰顺精密的承诺</h2>
-      <p>期待与您合作,共铸精密品质。欢迎随时联系我们。</p>
-      <a href="contact.html" class="btn btn-primary">联系我们 <span class="arrow">→</span></a>
+      <h2 data-i18n="cta.quality.title">品质,是杰顺精密的承诺</h2>
+      <p data-i18n="cta.quality.desc">期待与您合作,共铸精密品质。欢迎随时联系我们。</p>
+      <a href="contact.html" class="btn btn-primary"><span data-i18n="common.contactUs">联系我们</span> <span class="arrow">→</span></a>
     </div>
   </div>
 </section>
 
 <footer class="footer">
   <div class="container">
-    <p>© 2007-2026 杰顺精密 JIESHUN PRECISION · 江苏省苏州市甪直镇鸿达路25号 · 专注于高端精密配件生产</p>
+    <p data-i18n="footer.copyright">© 2007-2026 杰顺精密 JIESHUN PRECISION · 江苏省苏州市甪直镇鸿达路25号 · 专注于高端精密配件生产</p>
   </div>
 </footer>
 
 <script src="assets/js/main.js"></script>
+<script src="assets/js/i18n.js"></script>
 </body>
 </html>

@@ -91,4 +91,23 @@
       });
     });
   }
+
+  // 品质页流程图:进入视口逐节点激活
+  const flowWrap=document.querySelector('.flow-wrap');
+  if(flowWrap){
+    const fio=new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{
+        if(e.isIntersecting){
+          const kids=flowWrap.children;
+          Array.from(kids).forEach((c,i)=>{
+            c.style.transitionDelay=(i*0.12)+'s';
+            c.style.animationDelay=(i*0.12)+'s';
+          });
+          flowWrap.classList.add('active');
+          fio.unobserve(e.target);
+        }
+      });
+    },{threshold:0.35});
+    fio.observe(flowWrap);
+  }
 })();
