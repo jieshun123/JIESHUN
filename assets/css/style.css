@@ -341,7 +341,7 @@ ul{list-style:none}
 .qcap{padding:18px 26px;text-align:center;font-size:15px;font-weight:600;color:var(--ink-soft);border-top:1px solid var(--line)}
 
 /* ===== Contact page ===== */
-.contact-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:72px;align-items:start}
+.contact-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:72px;align-items:stretch}
 .contact-info h3{font-size:30px;font-weight:700;margin-bottom:14px;letter-spacing:1px}
 .contact-info .c-sub{color:rgba(255,255,255,.6);margin-bottom:40px;font-size:15.5px}
 .contact-list li{display:flex;gap:20px;padding:22px 0;border-bottom:1px solid rgba(255,255,255,.12)}
@@ -352,8 +352,8 @@ ul{list-style:none}
 .contact-map .pin{width:72px;height:72px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-size:32px;color:#fff;margin-bottom:28px;box-shadow:0 12px 30px rgba(232,145,58,.35)}
 .contact-map h4{font-size:20px;margin-bottom:10px}
 .contact-map p{color:rgba(255,255,255,.6);font-size:14.5px;max-width:300px;line-height:1.8}
-.contact-wall{margin-top:36px;padding-top:28px;border-top:1px solid rgba(255,255,255,.1);width:100%}
-.contact-wall img{width:100%;border-radius:3px;box-shadow:0 10px 28px rgba(0,0,0,.32);display:block}
+.contact-wall{margin-top:auto;padding-top:28px;border-top:1px solid rgba(255,255,255,.1);width:100%}
+.contact-wall img{width:100%;height:150px;object-fit:cover;border-radius:3px;box-shadow:0 10px 28px rgba(0,0,0,.32);display:block}
 .contact-wall .wall-cap{margin-top:14px;font-size:13px;color:rgba(255,255,255,.48);letter-spacing:.6px}
 
 /* ===== 证书条带 ===== */
