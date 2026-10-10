@@ -341,7 +341,8 @@ ul{list-style:none}
 .qcap{padding:18px 26px;text-align:center;font-size:15px;font-weight:600;color:var(--ink-soft);border-top:1px solid var(--line)}
 
 /* ===== Contact page ===== */
-.contact-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:72px;align-items:stretch}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:stretch}
+.contact-info{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.13);border-radius:4px;padding:48px 40px}
 .contact-info h3{font-size:30px;font-weight:700;margin-bottom:14px;letter-spacing:1px}
 .contact-info .c-sub{color:rgba(255,255,255,.6);margin-bottom:40px;font-size:15.5px}
 .contact-list li{display:flex;gap:20px;padding:22px 0;border-bottom:1px solid rgba(255,255,255,.12)}

@@ -85,7 +85,7 @@
         tab.classList.add('active');
         const cat=tab.dataset.cat;
         document.querySelectorAll('.pcard').forEach(card=>{
-          const show=!cat||card.dataset.cat===cat;
+          const show=cat==='all'||!cat||card.dataset.cat===cat;
           card.style.display=show?'':'none';
         });
       });
